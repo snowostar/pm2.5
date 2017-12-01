@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+  get 'pmv/index'
+
+  get 'pmv/import'
+
+  #root "pm#index"
+  resources :users
+   resources :pmv
+  root :to => "users#index"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

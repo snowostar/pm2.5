@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  'No': 1
+  year: 1
+  month: 1
+  day: 1
+  hour: 1
+  pm2.5: MyString
+  DEWP: 1
+  TEMP: MyString
+  PRES: 1
+  cbwd: MyString
+  lws: 
+  ls: 1
+  lr: 1
+
+two:
+  'No': 1
+  year: 1
+  month: 1
+  day: 1
+  hour: 1
+  pm2.5: MyString
+  DEWP: 1
+  TEMP: MyString
+  PRES: 1
+  cbwd: MyString
+  lws: 
+  ls: 1
+  lr: 1
